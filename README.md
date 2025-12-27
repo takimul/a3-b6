@@ -10,6 +10,9 @@ The goal of this assignment is to show understanding of:
 - SQL queries using `JOIN`, `EXISTS`, `WHERE`, `GROUP BY`, and `HAVING`
 
 ---
+---
+### VIVA LINK
+- [https://drive.google.com/file/d/1QCikoLStzBFBj41PcFT2gAt6kNtnhfmS/view?usp=sharing]
 
 ### ERD LINK
 - [https://drawsql.app/teams/zinnodev/diagrams/vehicle-rental-system-erd]
@@ -75,7 +78,7 @@ The system manages the following entities:
 
 ---
 
-## 🛠️ SQL Schema
+## 🛠️ SQL 
 
 ```sql
 CREATE TABLE users (
@@ -108,3 +111,5 @@ CREATE TABLE bookings (
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (vehicle_id) REFERENCES vehicles(id)
 );
+
+
